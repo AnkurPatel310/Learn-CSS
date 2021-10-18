@@ -1,0 +1,12 @@
+li{
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: sans-serif;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+    list-style-type: none;
+}
+li:nth-child(3n){
+    background-color: red;
+}

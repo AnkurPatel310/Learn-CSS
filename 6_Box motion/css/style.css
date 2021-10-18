@@ -1,0 +1,20 @@
+div {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: rotate 1s infinite;
+}
+
+@keyframes rotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+div:hover{
+	background: yellow;
+}
+
